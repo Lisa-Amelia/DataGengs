@@ -18,20 +18,35 @@
 
 ---
 
-## Tentang
+## ⚙️ Tentang
 
 ASK-MAN adalah sebuah proyek yang bertujuan untuk memverifikasi keaslian tanda tangan dokumen menggunakan teknik deep learning. Proyek ini memanfaatkan Convolutional Neural Network (CNN) dan Siamese Neural Network (SNN) dengan pengukuran Jarak Mahalanobis untuk mencocokkan tanda tangan yang tertera pada dokumen.
 
 ---
 
-## Deskripsi Proyek
+## 📄 Deskripsi Proyek
 
-Proyek ini menggabungkan teknik machine learning untuk memverifikasi tanda tangan pada dokumen menggunakan dua model utama: CNN untuk ekstraksi fitur dan SNN untuk perbandingan tanda tangan. Mahalanobis Distance digunakan untuk mengukur kesamaan antara tanda tangan yang terverifikasi dengan yang ditandatangani pada dokumen.
+Proyek ini bertujuan untuk mengelompokkan provinsi di Indonesia berdasarkan indeks khusus yang berkaitan dengan penanganan stunting. Stunting merupakan masalah gizi yang mempengaruhi pertumbuhan fisik dan perkembangan anak, yang dapat memiliki dampak jangka panjang terhadap kualitas sumber daya manusia di masa depan. Oleh karena itu, pengelompokan provinsi berdasarkan penanganan stunting sangat penting untuk memahami distribusi dan kondisi penanganan stunting di seluruh Indonesia.
 
-### Fitur Utama:
-- **Verifikasi Tanda Tangan**: Menggunakan deep learning untuk memverifikasi keaslian tanda tangan pada dokumen.
-- **Model Deep Learning**: Menggunakan CNN dan SNN untuk menganalisis dan membandingkan tanda tangan.
-- **Pengukuran Jarak Mahalanobis**: Menggunakan Mahalanobis Distance untuk menghitung kesamaan tanda tangan.
+Dalam proyek ini, dua metode utama digunakan untuk melakukan analisis pengelompokan: Bat Algorithm dan Fuzzy C-Means.
+
+1. **Bat Algorithm (BA)**:
+   Bat Algorithm adalah algoritma optimasi yang terinspirasi oleh cara kelelawar mencari mangsa. Algoritma ini digunakan untuk mengeksplorasi ruang pencarian dan menemukan solusi optimal dalam mengelompokkan data berdasarkan kriteria yang telah ditentukan. Dalam konteks ini, Bat Algorithm digunakan untuk menentukan posisi optimal bagi provinsi-provinsi yang dikelompokkan berdasarkan parameter-parameter yang berkaitan dengan stunting.
+
+3. **Fuzzy C-Means (FCM)**:
+   Fuzzy C-Means adalah algoritma clustering yang memungkinkan data untuk memiliki derajat keanggotaan dalam lebih dari satu klaster. Ini sangat berguna dalam konteks stunting, di mana setiap provinsi dapat berada di lebih dari satu kategori (misalnya, kategori penanganan stunting yang lebih tinggi atau lebih rendah) dengan tingkat keanggotaan yang berbeda. Dengan Fuzzy C-Means, provinsi-provinsi dapat dikelompokkan berdasarkan karakteristik yang saling tumpang tindih, memberikan gambaran yang lebih kompleks dan realistis tentang status penanganan stunting di Indonesia.
+
+Proyek ini melibatkan pengumpulan dan analisis data yang mencakup faktor-faktor yang mempengaruhi stunting, seperti tingkat pendidikan, akses ke layanan kesehatan, gizi, dan indikator sosial-ekonomi lainnya. Data yang telah diproses dan distandarisasi kemudian dianalisis menggunakan kedua algoritma tersebut untuk mengidentifikasi klaster-klaster yang mencerminkan kondisi penanganan stunting di provinsi-provinsi Indonesia.
+
+**Output yang Diharapkan**:
+
+- Pembentukan klaster-klaster provinsi berdasarkan tingkat keberhasilan penanganan stunting, yang dapat digunakan untuk merencanakan kebijakan yang lebih tepat sasaran.
+
+- Visualisasi hasil pengelompokan dalam bentuk peta atau diagram yang memudahkan pemangku kebijakan dan masyarakat untuk memahami distribusi penanganan stunting di Indonesia.
+
+- Rekomendasi kebijakan berdasarkan hasil pengelompokan untuk meningkatkan penanganan stunting di provinsi-provinsi dengan indeks rendah.
+
+Dengan pendekatan ini, diharapkan proyek ini dapat memberikan wawasan yang lebih mendalam tentang tantangan yang dihadapi dalam penanganan stunting di Indonesia dan membantu pemerintah serta organisasi terkait untuk merancang intervensi yang lebih efektif.
 
 ---
 
@@ -45,7 +60,7 @@ Demo ini memperlihatkan cara kerja model deep learning dalam memverifikasi tanda
 
 ---
 
-## Alur Proyek
+## 📈 Alur Proyek
 
 1. **Input**: Memasukkan dokumen yang berisi tanda tangan.
 2. **Preprocessing**: Memproses gambar untuk meningkatkan kualitas dan mengekstraksi fitur dari tanda tangan.

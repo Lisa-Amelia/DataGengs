@@ -3,7 +3,7 @@
 ---
 
 # Data Gengs
-### Pengelompokan Kabupaten/Kota di Pulau Sulawesi Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Bat Algorithm - Fuzzy C Means
+### Pengelompokan Kabupaten/Kota di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Bat Algorithm - Fuzzy C Means
 
 </div>
 

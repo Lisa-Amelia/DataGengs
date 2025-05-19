@@ -3,7 +3,7 @@
 ---
 
 # Data Gengs
-### Pengelompokan Kabupaten/Kota di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Self Organizing Maps - Fuzzy C Means
+### Pengelompokan Kabupaten/Kota di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Self Organizing Maps
 
 </div>
 
@@ -28,13 +28,10 @@ ASK-MAN adalah sebuah proyek yang bertujuan untuk memverifikasi keaslian tanda t
 
 Proyek ini bertujuan untuk mengelompokkan provinsi di Indonesia berdasarkan indeks khusus yang berkaitan dengan penanganan stunting. Stunting merupakan masalah gizi yang mempengaruhi pertumbuhan fisik dan perkembangan anak, yang dapat memiliki dampak jangka panjang terhadap kualitas sumber daya manusia di masa depan. Oleh karena itu, pengelompokan provinsi berdasarkan penanganan stunting sangat penting untuk memahami distribusi dan kondisi penanganan stunting di seluruh Indonesia.
 
-Dalam proyek ini, dua metode utama digunakan untuk melakukan analisis pengelompokan: Bat Algorithm dan Fuzzy C-Means.
+Dalam proyek ini, metode yang digunakan untuk melakukan analisis pengelompokan adalah Self Orgainizing Maps.
 
-1. **Bat Algorithm (BA)**:
-   Bat Algorithm adalah algoritma optimasi yang terinspirasi oleh cara kelelawar mencari mangsa. Algoritma ini digunakan untuk mengeksplorasi ruang pencarian dan menemukan solusi optimal dalam mengelompokkan data berdasarkan kriteria yang telah ditentukan. Dalam konteks ini, Bat Algorithm digunakan untuk menentukan posisi optimal bagi provinsi-provinsi yang dikelompokkan berdasarkan parameter-parameter yang berkaitan dengan stunting.
-
-3. **Fuzzy C-Means (FCM)**:
-   Fuzzy C-Means adalah algoritma clustering yang memungkinkan data untuk memiliki derajat keanggotaan dalam lebih dari satu klaster. Ini sangat berguna dalam konteks stunting, di mana setiap provinsi dapat berada di lebih dari satu kategori (misalnya, kategori penanganan stunting yang lebih tinggi atau lebih rendah) dengan tingkat keanggotaan yang berbeda. Dengan Fuzzy C-Means, provinsi-provinsi dapat dikelompokkan berdasarkan karakteristik yang saling tumpang tindih, memberikan gambaran yang lebih kompleks dan realistis tentang status penanganan stunting di Indonesia.
+**Self Orgainizing Maps (SOM)**:
+   SElf Organizing Maps adalah metode tanpa pengawasan yang digunakan untuk memetakan dan mengelompokkan provinsi berdasarkan indikator stunting. Dengan SOM, wilayah dengan karakteristik serupa ditampilkan berdekatan dalam peta, membantu analisis pola dan mendukung pengambilan keputusan yang lebih tepat sasaran dalam penanggulangan stunting di Indonesia.
 
 Proyek ini melibatkan pengumpulan dan analisis data yang mencakup faktor-faktor yang mempengaruhi stunting, seperti tingkat pendidikan, akses ke layanan kesehatan, gizi, dan indikator sosial-ekonomi lainnya. Data yang telah diproses dan distandarisasi kemudian dianalisis menggunakan kedua algoritma tersebut untuk mengidentifikasi klaster-klaster yang mencerminkan kondisi penanganan stunting di provinsi-provinsi Indonesia.
 

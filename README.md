@@ -30,8 +30,7 @@ Proyek ini bertujuan untuk mengelompokkan provinsi di Indonesia berdasarkan inde
 
 Dalam proyek ini, metode yang digunakan untuk melakukan analisis pengelompokan adalah Self Orgainizing Maps.
 
-**Self Orgainizing Maps (SOM)**:
-   SElf Organizing Maps adalah metode tanpa pengawasan yang digunakan untuk memetakan dan mengelompokkan provinsi berdasarkan indikator stunting. Dengan SOM, wilayah dengan karakteristik serupa ditampilkan berdekatan dalam peta, membantu analisis pola dan mendukung pengambilan keputusan yang lebih tepat sasaran dalam penanggulangan stunting di Indonesia.
+**Self Orgainizing Maps (SOM)** adalah metode tanpa pengawasan yang digunakan untuk memetakan dan mengelompokkan provinsi berdasarkan indikator stunting. Dengan SOM, wilayah dengan karakteristik serupa ditampilkan berdekatan dalam peta, membantu analisis pola dan mendukung pengambilan keputusan yang lebih tepat sasaran dalam penanggulangan stunting di Indonesia.
 
 Proyek ini melibatkan pengumpulan dan analisis data yang mencakup faktor-faktor yang mempengaruhi stunting, seperti tingkat pendidikan, akses ke layanan kesehatan, gizi, dan indikator sosial-ekonomi lainnya. Data yang telah diproses dan distandarisasi kemudian dianalisis menggunakan kedua algoritma tersebut untuk mengidentifikasi klaster-klaster yang mencerminkan kondisi penanganan stunting di provinsi-provinsi Indonesia.
 

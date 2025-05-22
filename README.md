@@ -3,7 +3,7 @@
 ---
 
 # Data Gengs
-### Pengelompokan Kabupaten/Kota di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Self Organizing Maps
+### Pengelompokan Kabupaten/Kota di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Self Organizing Maps (SOM)
 
 </div>
 
@@ -20,83 +20,71 @@
 
 ## ⚙️ Tentang
 
-ASK-MAN adalah sebuah proyek yang bertujuan untuk memverifikasi keaslian tanda tangan dokumen menggunakan teknik deep learning. Proyek ini memanfaatkan Convolutional Neural Network (CNN) dan Siamese Neural Network (SNN) dengan pengukuran Jarak Mahalanobis untuk mencocokkan tanda tangan yang tertera pada dokumen.
+Proyek ini bertujuan untuk mengelompokkan provinsi di Indonesia berdasarkan Indeks Khusus Penanganan Stunting menggunakan metode Self Organizing Maps (SOM). Dengan teknik unsupervised learning ini, provinsi yang memiliki karakteristik serupa terkait penanganan stunting akan tergabung dalam klaster yang sama, sehingga dapat membantu analisis pola dan pengambilan kebijakan yang lebih tepat sasaran.
 
 ---
 
 ## 📄 Deskripsi Proyek
 
-Proyek ini bertujuan untuk mengelompokkan provinsi di Indonesia berdasarkan indeks khusus yang berkaitan dengan penanganan stunting. Stunting merupakan masalah gizi yang mempengaruhi pertumbuhan fisik dan perkembangan anak, yang dapat memiliki dampak jangka panjang terhadap kualitas sumber daya manusia di masa depan. Oleh karena itu, pengelompokan provinsi berdasarkan penanganan stunting sangat penting untuk memahami distribusi dan kondisi penanganan stunting di seluruh Indonesia.
+Stunting merupakan masalah gizi kronis yang mempengaruhi pertumbuhan dan perkembangan anak di Indonesia. Proyek ini menggunakan data indikator-indikator yang berkaitan dengan penanganan stunting, seperti akses layanan kesehatan, status gizi, pendidikan, dan faktor sosial-ekonomi lainnya.
 
-Dalam proyek ini, metode yang digunakan untuk melakukan analisis pengelompokan adalah Self Orgainizing Maps.
+Self Organizing Maps (SOM) adalah algoritma neural network tanpa pengawasan yang memetakan data berdimensi tinggi ke dalam peta dua dimensi sehingga klaster dengan karakteristik serupa dapat dikenali dengan mudah.
 
-**Self Orgainizing Maps (SOM)** adalah metode tanpa pengawasan yang digunakan untuk memetakan dan mengelompokkan provinsi berdasarkan indikator stunting. Dengan SOM, wilayah dengan karakteristik serupa ditampilkan berdekatan dalam peta, membantu analisis pola dan mendukung pengambilan keputusan yang lebih tepat sasaran dalam penanggulangan stunting di Indonesia.
+Melalui proyek ini, diharapkan dapat diidentifikasi kelompok provinsi yang membutuhkan perhatian khusus dalam penanganan stunting dan membantu perumusan kebijakan berbasis data.
 
-Proyek ini melibatkan pengumpulan dan analisis data yang mencakup faktor-faktor yang mempengaruhi stunting, seperti tingkat pendidikan, akses ke layanan kesehatan, gizi, dan indikator sosial-ekonomi lainnya. Data yang telah diproses dan distandarisasi kemudian dianalisis menggunakan kedua algoritma tersebut untuk mengidentifikasi klaster-klaster yang mencerminkan kondisi penanganan stunting di provinsi-provinsi Indonesia.
-
-**Output yang Diharapkan**:
-
-- Pembentukan klaster-klaster provinsi berdasarkan tingkat keberhasilan penanganan stunting, yang dapat digunakan untuk merencanakan kebijakan yang lebih tepat sasaran.
-
-- Visualisasi hasil pengelompokan dalam bentuk peta atau diagram yang memudahkan pemangku kebijakan dan masyarakat untuk memahami distribusi penanganan stunting di Indonesia.
-
-- Rekomendasi kebijakan berdasarkan hasil pengelompokan untuk meningkatkan penanganan stunting di provinsi-provinsi dengan indeks rendah.
-
-Dengan pendekatan ini, diharapkan proyek ini dapat memberikan wawasan yang lebih mendalam tentang tantangan yang dihadapi dalam penanganan stunting di Indonesia dan membantu pemerintah serta organisasi terkait untuk merancang intervensi yang lebih efektif.
+**Output yang Diharapkan**:  
+- Klaster provinsi berdasarkan tingkat dan karakteristik penanganan stunting  
+- Visualisasi peta klaster yang mudah dipahami  
+- Rekomendasi kebijakan berdasarkan hasil pengelompokan
 
 ---
 
-## Demo
+## 📊 Sumber Data
 
-Untuk melihat demo dari proyek ini, silakan klik link berikut:
+Data yang digunakan dalam proyek ini berasal dari beberapa sumber resmi berikut:
 
-[**Demo Project**](#)
+- **Survei Status Gizi Balita Indonesia (SSGBI) 2023** – Data indeks stunting dan indikator kesehatan anak balita di seluruh provinsi Indonesia.  
+  Sumber: [https://example.gov.id/ssgbi-2023](https://example.gov.id/ssgbi-2023)
 
-Demo ini memperlihatkan cara kerja model deep learning dalam memverifikasi tanda tangan dokumen.
+- **Badan Pusat Statistik (BPS) Indonesia** – Data demografi, sosial ekonomi, dan akses layanan kesehatan provinsi.  
+  Sumber: [https://bps.go.id/](https://bps.go.id/)
 
----
+- **Kementerian Kesehatan Republik Indonesia (Kemenkes RI)** – Laporan tahunan dan data program penanganan stunting.  
+  Sumber: [https://www.kemkes.go.id/](https://www.kemkes.go.id/)
 
-## 📈 Alur Proyek
-
-1. **Input**: Memasukkan dokumen yang berisi tanda tangan.
-2. **Preprocessing**: Memproses gambar untuk meningkatkan kualitas dan mengekstraksi fitur dari tanda tangan.
-3. **Pelatihan Model**: Melatih model CNN dan SNN dengan dataset tanda tangan yang sudah diberi label.
-4. **Verifikasi**: Menggunakan model yang telah dilatih untuk memverifikasi tanda tangan pada dokumen yang diberikan.
-5. **Output**: Hasil verifikasi yang menunjukkan apakah tanda tangan pada dokumen tersebut asli atau palsu.
+Data tersebut telah diproses dan distandarisasi untuk keperluan analisis menggunakan metode Self Organizing Maps (SOM).
 
 ---
 
-## Instalasi
+## 🔄 Alur Proyek
 
-Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+1. **Pengumpulan Data**  
+   Mengumpulkan dan membersihkan data indikator penanganan stunting dari sumber resmi.  
 
-### Prasyarat:
-1. Python 3.6+
-2. TensorFlow atau PyTorch
-3. OpenCV
+2. **Pra-pemrosesan**  
+   Melakukan normalisasi dan standarisasi data agar sesuai untuk analisis SOM.  
 
-### Langkah-langkah:
-1. Clone repository:
-    ```bash
-    git clone https://github.com/yourusername/ASK-MAN.git
-    ```
-2. Instal dependensi:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Jalankan proyek:
-    ```bash
-    python main.py
-    ```
+3. **Pelatihan SOM**  
+   Melatih model Self Organizing Maps untuk memetakan provinsi ke dalam klaster.  
+
+4. **Visualisasi Hasil**  
+   Menampilkan hasil klaster dalam bentuk peta dan grafik untuk interpretasi.  
+
+5. **Analisis dan Rekomendasi**  
+   Menganalisis klaster yang terbentuk dan memberikan rekomendasi kebijakan.  
 
 ---
 
-## Kontribusi
+## 🛠️ Instalasi
 
-Jika Anda ingin berkontribusi pada proyek ini, silakan buat pull request atau buka issue untuk saran dan perbaikan.
+Untuk menjalankan proyek ini secara lokal menggunakan R, ikuti langkah berikut:
 
+### Prasyarat  
+- R versi 4.0+  
+- Paket R: `kohonen`, `openxlsx`, `ggplot2`, `cluster`
+
+### Langkah-langkah  
+1. Clone repository:  
+   ```bash
+   git clone https://github.com/yourusername/repo.git
 ---
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.

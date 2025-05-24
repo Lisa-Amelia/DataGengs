@@ -34,16 +34,33 @@ SOM memperlihatkan tiga karakteristik:
 Pada SOM, jaringan terdiri dari 2 *layer*, yaitu *layer* input dan *layer* output. Setiap *node* dari input terhubung dengan seluruh *node* pada *layer* output. Namun *node* pada *layer* output (neuron) tidak terhubung satu sama lain. *Node* dalam *layer* output ini disebut juga *map node*. *Output layer* dapat berdimensi 1 atau 2. *Layer* ini juga dapat disebut sebagai *computational layer* atau *competitive layer* karena *node*-*node* pada *layer* ini berkompetisi dan selalu diperbarui bobotnya. Baik input maupun output, *node* merupakan *array* yang menyimpan informasi karakteristik, atribut maupun ciri.
 
 <div align="center">
-<img src="https://storage.googleapis.com/bard-uploads/edy-5.jpg-081ee3f3-e3b7-4b44-9cfe-c16ced3c4ab5" alt="Gambar arsitektur SOM" width="500">
-<p align="center">Gambar arsitektur SOM</p>
+<img src="https://socs.binus.ac.id/files/2017/03/edy-5.jpg" alt="Gambar 1 Arsitektur SOM">
+<p align="center">Gambar 1 Arsitektur SOM</p>
 </div>
 
 ### Topologi SOM
 
 SOM memiliki 3 jenis topologi hubungan ketetanggaan (*neighborhood*) yaitu *linear array*, *rectangular grid* dan *heksagonal grid*.
 1.  **Linear Array**: Menunjukkan *cluster unit* yang tersusun secara *linear*. *Cluster unit* yang menjadi pemenang `[#]` memiliki dua unit tetangga (*neighbour*) yang berjarak 1 `()` dan mempunyai dua unit tetangga (*neighbour*) yang berjarak 2 `{}`.
+   
+<div align="center">
+<img src="https://socs.binus.ac.id/files/2017/03/edy-6.jpg" alt="Gambar 2 Linear Array Unit">
+<p align="center">Gambar 2 Linear Array Unit</p>
+</div>
+
 2.  **Rectangular Grid**: Adalah topologi dari *cluster unit* dua dimensi. Unit tetangga (*neighbour*) dari unit pemenang membentuk bujur sangkar. Unit pemenang `[#]` memiliki 8 tetangga (*neighbour*) yang berjarak 1 (`R=1`) dan 16 tetangga (*neighbour*) yang berjarak 2 (`R=2`).
+
+<div align="center">
+<img src="https://socs.binus.ac.id/files/2017/03/edy-7.jpg" alt="Gambar 3 Rectangular Grid">
+<p align="center">Gambar 3 Rectangular Grid</p>
+</div>
+
 3.  **Heksagonal Grid**: Dalam topologi ini, unit pemenang `[#]` memiliki 6 tetangga (*neighbour*) yang berjarak 1 (`R=1`) dan 12 tetangga (*neighbour*) yang berjarak 2 (`R=2`).
+
+<div align="center">
+<img src="https://socs.binus.ac.id/files/2017/03/edy-8.jpg" alt="Gambar 4 Hexagonal Grid">
+<p align="center">Gambar 4 Hexagonal Grid</p>
+</div>
 
 ### Algoritma SOM
 

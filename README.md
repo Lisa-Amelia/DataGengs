@@ -131,6 +131,61 @@ Variabel-variabel yang digunakan dalam proyek ini untuk membentuk Indeks Khusus 
 
 ## 📈 Hasil Analisis
 
+### Visualisasi Proses Pelatihan SOM
+
+Berikut adalah visualisasi tambahan yang dihasilkan selama proses pelatihan Self Organizing Maps, memberikan wawasan lebih lanjut tentang bagaimana model belajar dan mengelompokkan data:
+
+<div align="center">
+<img src="http://127.0.0.1:41831/graphics/5e050450-4282-442d-970e-0df9ed9388db.png" alt="Grafik Kemajuan Pelatihan SOM" width="600">
+<p align="center">Gambar Kemajuan Pelatihan (<i>Training Progress</i>)</p>
+</div>
+Grafik ini menunjukkan "Mean distance to closest unit" (Jarak rata-rata ke unit terdekat) terhadap jumlah iterasi (<i>epoch</i>) selama pelatihan SOM. Penurunan jarak rata-rata ini mengindikasikan bahwa model SOM semakin baik dalam mengorganisasikan data dan menemukan pola yang konsisten. Semakin rendah dan stabil garis pada grafik, semakin baik konvergensi model.
+
+<div align="center">
+<img src="https://storage.googleapis.com/bard-uploads/image_ca81f2.png-831e8229-6de8-47ea-b52c-34df82e14b3f" alt="Plot Kode Fan Diagram" width="500">
+<p align="center">Gambar Plot Kode (<i>Fan Diagram</i>)</p>
+</div>
+Plot kode ini menampilkan "fan diagram" atau diagram kipas untuk setiap *node* dalam peta SOM. Setiap "kipas" merepresentasikan vektor bobot dari sebuah *node*, dengan setiap segmen kipas menunjukkan nilai rata-rata dari variabel input yang berbeda. Ukuran dan arah segmen menunjukkan pengaruh relatif dari setiap variabel terhadap *node* tersebut. *Node* dengan pola kipas yang serupa akan dikelompokkan bersama, mencerminkan karakteristik data yang mirip.
+
+<div align="center">
+<img src="https://storage.googleapis.com/bard-uploads/image_ca81d4.png-6320ece1-a8d3-4058-921d-266d49865c4a" alt="Peta Klaster SOM" width="500">
+<p align="center">Gambar Pemetaan Klaster (<i>Cluster Mapping</i>)</p>
+</div>
+Gambar ini menunjukkan bagaimana provinsi-provinsi dipetakan ke dalam *node*-*node* SOM yang telah dikelompokkan menjadi *cluster*. Setiap lingkaran mewakili satu atau lebih provinsi yang memiliki karakteristik serupa dan dipetakan ke *node* tersebut. Warna lingkaran menunjukkan *cluster* tempat *node* tersebut berada, sementara garis tebal menunjukkan batas-batas antar *cluster* yang terbentuk.
+
+<div align="center">
+<img src="https://storage.googleapis.com/bard-uploads/image_ca81b7.png-34978a28-12fe-4ad3-a85c-71e0fe2390f4" alt="Plot Kode Fan Diagram dengan Batas Klaster" width="500">
+<p align="center">Gambar Plot Kode dengan Batas Klaster (<i>Codes Plot with Cluster Boundaries</i>)</p>
+</div>
+Ini adalah variasi dari plot kode di atas, tetapi dengan tambahan batas-batas *cluster* yang jelas. Visualisasi ini membantu dalam memahami karakteristik variabel yang dominan di setiap *cluster*. Dengan melihat pola kipas dalam setiap kelompok warna, kita dapat mengidentifikasi variabel-variabel yang paling memengaruhi pengelompokan provinsi di setiap *cluster*.
+
+---
+
+Berdasarkan analisis menggunakan Self Organizing Maps (SOM), pengelompokan provinsi di Indonesia berdasarkan Indeks Khusus Penanganan Stunting (IKPS) akan menghasilkan klaster-klaster provinsi dengan karakteristik penanganan stunting yang serupa. Setiap klaster akan merepresentasikan kelompok provinsi yang memiliki pola indikator IKPS yang mirip, seperti prevalensi stunting, akses layanan kesehatan, kondisi sosial ekonomi, dan praktik gizi.
+
+<div align="center">
+<img src="https://storage.googleapis.com/bard-uploads/Saya%20turu%20ya%20guys.jpg-d63901ee-8629-4855-97c5-1a1dc6950b84" alt="Peta Pengelompokan 38 Provinsi di Indonesia Berdasarkan IKPS Menggunakan Metode SOM" width="700">
+<p align="center">Peta Pengelompokan 38 Provinsi di Indonesia Berdasarkan IKPS Menggunakan Metode SOM</p>
+</div>
+
+**Penjelasan Hasil Pengelompokan:**
+
+Peta di atas menunjukkan hasil pengelompokan 38 provinsi di Indonesia berdasarkan Indeks Khusus Penanganan Stunting (IKPS) menggunakan metode SOM. Provinsi-provinsi dikelompokkan ke dalam 3 klaster utama yang direpresentasikan dengan warna berbeda:
+
+* **Klaster 1 (Merah - Rendah)**: Provinsi-provinsi dalam klaster ini menunjukkan tingkat IKPS yang rendah, mengindikasikan tantangan yang signifikan dalam penanganan stunting. Provinsi-provinsi ini kemungkinan memiliki prevalensi stunting yang tinggi, akses yang terbatas terhadap layanan kesehatan dan sanitasi, serta kondisi sosial ekonomi yang kurang mendukung. Intervensi yang sangat intensif dan komprehensif diperlukan di wilayah-wilayah ini.
+
+* **Klaster 2 (Kuning - Sedang)**: Provinsi-provinsi dalam klaster ini berada pada tingkat IKPS sedang. Mereka mungkin menunjukkan beberapa kemajuan dalam penanganan stunting tetapi masih menghadapi kendala atau memiliki area yang perlu ditingkatkan. Strategi yang lebih terfokus dan peningkatan kapasitas dapat membantu provinsi-provinsi ini mencapai hasil yang lebih baik.
+
+* **Klaster 3 (Hijau - Tinggi)**: Provinsi-provinsi dalam klaster ini menunjukkan tingkat IKPS yang tinggi, menandakan kinerja yang baik dalam penanganan stunting. Provinsi-provinsi ini kemungkinan memiliki prevalensi stunting yang lebih rendah, akses yang baik terhadap layanan kesehatan dan sanitasi, serta kondisi sosial ekonomi yang lebih stabil. Meskipun demikian, upaya pemeliharaan dan inovasi program tetap penting untuk mempertahankan capaian ini.
+
+Identifikasi klaster-klaster ini akan memungkinkan penentu kebijakan untuk:
+* Mengidentifikasi provinsi-provinsi prioritas yang membutuhkan intervensi stunting lebih intensif.
+* Merancang strategi penanganan stunting yang disesuaikan dengan karakteristik spesifik masing-masing kelompok provinsi.
+* Mengalokasikan sumber daya secara lebih efisien dan tepat sasaran.
+
+Visualisasi hasil *clustering* juga dapat ditampilkan pada peta Indonesia, di mana setiap klaster provinsi diberi warna yang berbeda untuk memudahkan interpretasi dan identifikasi visual.
+
+
 ---
 
 ## 🛠️ Instalasi

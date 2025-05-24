@@ -9,37 +9,25 @@
 
 ---
 
-<p align="center">
-  <a href="#tentang">Tentang</a> •
-  <a href="#deskripsi-project">Deskripsi Project</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#alur-proyek">Alur Proyek</a>
-</p>
+## 📄 Deskripsi Project
+
+Proyek ini bertujuan untuk mengelompokkan kabupaten/kota di Indonesia berdasarkan Indeks Khusus Penanganan Stunting (IKPS) menggunakan metode Self Organizing Maps (SOM). SOM adalah algoritma unsupervised learning yang digunakan untuk memetakan data ke dalam bentuk visual yang mudah dipahami. Dengan metode ini, wilayah-wilayah dengan karakteristik penanganan stunting yang mirip akan tergabung dalam satu klaster. Proyek ini diharapkan dapat membantu pengambil kebijakan dalam mengidentifikasi daerah prioritas intervensi serta merancang strategi yang lebih tepat sasaran.
 
 ---
 
-## ⚙️ Tentang
-
-Proyek ini bertujuan untuk mengelompokkan provinsi di Indonesia berdasarkan Indeks Khusus Penanganan Stunting menggunakan metode Self Organizing Maps (SOM). Dengan teknik unsupervised learning ini, provinsi yang memiliki karakteristik serupa terkait penanganan stunting akan tergabung dalam klaster yang sama, sehingga dapat membantu analisis pola dan pengambilan kebijakan yang lebih tepat sasaran.
+## 🧠 Latar Belakang
 
 ---
 
-## 📄 Deskripsi Proyek
-
-Stunting merupakan masalah gizi kronis yang mempengaruhi pertumbuhan dan perkembangan anak di Indonesia. Proyek ini menggunakan data indikator-indikator yang berkaitan dengan penanganan stunting, seperti akses layanan kesehatan, status gizi, pendidikan, dan faktor sosial-ekonomi lainnya.
-
-Self Organizing Maps (SOM) adalah algoritma neural network tanpa pengawasan yang memetakan data berdimensi tinggi ke dalam peta dua dimensi sehingga klaster dengan karakteristik serupa dapat dikenali dengan mudah.
-
-Melalui proyek ini, diharapkan dapat diidentifikasi kelompok provinsi yang membutuhkan perhatian khusus dalam penanganan stunting dan membantu perumusan kebijakan berbasis data.
-
-**Output yang Diharapkan**:  
-- Klaster provinsi berdasarkan tingkat dan karakteristik penanganan stunting  
-- Visualisasi peta klaster yang mudah dipahami  
-- Rekomendasi kebijakan berdasarkan hasil pengelompokan
+##  Indeks Khusus Penanganan Stunting (IKPS)
 
 ---
 
-## 📊 Sumber Data
+## Self Organizing Maps (SOM)
+
+---
+
+## 📊 Sumber Data dan Variabel
 
 Data yang digunakan dalam proyek ini berasal dari beberapa sumber resmi berikut:
 
@@ -72,6 +60,10 @@ Data tersebut telah diproses dan distandarisasi untuk keperluan analisis menggun
 
 5. **Analisis dan Rekomendasi**  
    Menganalisis klaster yang terbentuk dan memberikan rekomendasi kebijakan.  
+
+---
+
+## 📈 Hasil Analisis
 
 ---
 

@@ -18,11 +18,11 @@ Proyek ini bertujuan untuk mengelompokkan kabupaten/kota di Indonesia berdasarka
 ## 🧠 Latar Belakang
 
 ---
-## Indeks Khusus Penanganan Stunting (IKPS)
+## 👶 Indeks Khusus Penanganan Stunting (IKPS)
 
 ---
 
-## Self Organizing Maps (SOM)
+## 🗺️ Self Organizing Maps (SOM)
 Self Organizing Maps (SOM) merupakan perluasan dari jaringan kompetitif yang sering disebut dengan jaringan Kohonen. Jaringan ini termasuk dalam pembelajaran tak terawasi (*unsupervised learning*) dan pertama kali diperkenalkan oleh Teuvo Kohonen pada tahun 1981. Pada jaringan ini, suatu lapisan yang berisi neuron-neuron akan menyusun dirinya sendiri berdasarkan input nilai tertentu dalam suatu kelompok yang dikenal dengan istilah *cluster*. Selama proses penyusunan diri, *cluster* yang memiliki bobot paling cocok dengan pola input (memiliki jarak paling dekat) akan terpilih sebagai pemenang. Neuron yang menjadi pemenang beserta neuron-neuron tetangganya akan memperbaiki bobot-bobotnya.
 
 Metode ini memungkinkan untuk menggambarkan data multidimensi ke dalam dimensi yang lebih kecil, biasanya satu atau dua dimensi. Proses penyederhanaan ini dilakukan dengan mengurangi vektor yang menghubungkan masing-masing *node*. Cara ini disebut juga dengan *Vector Quantization*. Teknik yang dipakai dalam metode SOM dilakukan dengan membuat jaringan yang menyimpan informasi dalam bentuk hubungan *node* dengan *training set* yang ditentukan.

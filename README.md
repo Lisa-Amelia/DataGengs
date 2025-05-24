@@ -78,6 +78,8 @@ Pada prinsipnya algoritma SOM mempunyai 2 proses perhitungan matematika, yaitu p
 
 ## 📊 Sumber Data dan Variabel
 
+### Sumber Data
+
 Data yang digunakan dalam proyek ini berasal dari beberapa sumber resmi berikut:
 
 - **Badan Pusat Statistik (BPS) Indonesia** – Data demografi, sosial ekonomi, dan akses layanan kesehatan provinsi.  
@@ -87,6 +89,24 @@ Data yang digunakan dalam proyek ini berasal dari beberapa sumber resmi berikut:
   Sumber: [https://data.go.id/](https://data.go.id/)
 
 Data tersebut telah diproses dan distandarisasi untuk keperluan analisis menggunakan metode Self Organizing Maps (SOM).
+
+### Variabel yang Digunakan
+
+Variabel-variabel yang digunakan dalam proyek ini untuk membentuk Indeks Khusus Penanganan Stunting (IKPS) dan melakukan pengelompokan provinsi adalah sebagai berikut:
+
+* **Imunisasi (X1)**: Persentase anak usia 12-23 bulan yang menerima imunisasi dasar lengkap.
+* **Penolong Persalinan (X2)**: Persentase Wanita Perna Kawin (WPK) usia 15-49 tahun yang proses melahirkannya terakhir ditolong oleh tenaga Kesehatan terlatih di fasilitas kesehatan.
+* **KB Modern (X3)**: Proporsi perempuan usia reproduktif (15-49 tahun) atau pasangannya yang aktif secara seksual dan ingin menunda untuk memiliki anak atau tidak ingin menambah anak lagi dan menggunakan alat kontrasepsi metode modern.
+* **Asi Eksklusif (X4)**: Persentase bayi usia kurang dari 6 bulan yang mendapat ASI eksklusif.
+* **MP-ASI (X5)**: Persentase anak usia 6-23 bulan yang masih diberi ASI dan mendapat empat atau lebih jenis makanan selama seharian kemudian.
+* **Air Minum Layak (X6)**: Persentase rumah tangga yang memiliki akses terhadap layanan sumber air minum layak.
+* **Sanitasi Layak (X7)**: Persentase rumah tangga yang memiliki akses terhadap layanan sanitasi layak dan berkelanjutan.
+* **Kerawanan Pangan (X8)**: Prevalensi penduduk yang mengalami kerawanan pangan sedang atau parah.
+* **Ketidakcukupan Konsumsi Pangan (X9)**: prevalensi populasi yang tidak mengalami kecukupan konsumsi pangan.
+* **PAUD (X10)**: Angka Partisipasi Kasar (APK) PAUD 3-6 tahun
+* **Pemanfaatan Jaminan Sosial (X11)**: Persentase penduduk yang memanfaatkan JKN/Jamkesda.
+* **Penerima KPS/KKS (X12)**: Persentase rumah tangga yang menerima KPS/KKS (penduduk 40 persen terbawah).
+
 
 ---
 

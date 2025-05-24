@@ -131,7 +131,7 @@ Variabel-variabel yang digunakan dalam proyek ini untuk membentuk Indeks Khusus 
 
 ## 📈 Hasil Analisis
 
-### Visualisasi Proses Pelatihan SOM
+### Visualisasi Proses SOM
 
 Berikut adalah visualisasi tambahan yang dihasilkan selama proses pelatihan Self Organizing Maps, memberikan wawasan lebih lanjut tentang bagaimana model belajar dan mengelompokkan data:
 

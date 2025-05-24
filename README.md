@@ -3,7 +3,7 @@
 ---
 
 # Data Gengs
-### Pengelompokan Kabupaten/Kota di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Self Organizing Maps (SOM)
+### Pengelompokan Provinsi di Indonesia Berdasarkan Indeks Khusus Penanganan Stunting Menggunakan Self Organizing Maps (SOM)
 
 </div>
 

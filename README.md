@@ -18,8 +18,11 @@ Proyek ini bertujuan untuk mengelompokkan kabupaten/kota di Indonesia berdasarka
 ## 🧠 Latar Belakang
 
 ---
+## Indeks Khusus Penanganan Stunting (IKPS)
 
-##  Indeks Khusus Penanganan Stunting (IKPS)
+---
+
+## Self Organizing Maps (SOM)
 Self Organizing Maps (SOM) merupakan perluasan dari jaringan kompetitif yang sering disebut dengan jaringan Kohonen. Jaringan ini termasuk dalam pembelajaran tak terawasi (*unsupervised learning*) dan pertama kali diperkenalkan oleh Teuvo Kohonen pada tahun 1981. Pada jaringan ini, suatu lapisan yang berisi neuron-neuron akan menyusun dirinya sendiri berdasarkan input nilai tertentu dalam suatu kelompok yang dikenal dengan istilah *cluster*. Selama proses penyusunan diri, *cluster* yang memiliki bobot paling cocok dengan pola input (memiliki jarak paling dekat) akan terpilih sebagai pemenang. Neuron yang menjadi pemenang beserta neuron-neuron tetangganya akan memperbaiki bobot-bobotnya.
 
 Metode ini memungkinkan untuk menggambarkan data multidimensi ke dalam dimensi yang lebih kecil, biasanya satu atau dua dimensi. Proses penyederhanaan ini dilakukan dengan mengurangi vektor yang menghubungkan masing-masing *node*. Cara ini disebut juga dengan *Vector Quantization*. Teknik yang dipakai dalam metode SOM dilakukan dengan membuat jaringan yang menyimpan informasi dalam bentuk hubungan *node* dengan *training set* yang ditentukan.
@@ -71,26 +74,17 @@ Pada prinsipnya algoritma SOM mempunyai 2 proses perhitungan matematika, yaitu p
 4.  **Learning Rate**: Pada proses untuk mendapatkan bobot baru memerlukan nilai *learning rate* ($\alpha$) yaitu $0\le\alpha\le1$. Nilai *learning rate* pada setiap *epoch* akan berkurang menjadi $\alpha(i+1)=0,5\alpha$.
 5.  **Kondisi Penghentian Pengujian (Konvergensi)**: Dilakukan dengan menghitung selisih antara bobot $w_{ij}$ (new) dengan $w_{ij}$ (old). Apabila nilai $w_{ij}$ hanya berubah sedikit saja, berarti pengujian sudah mencapai konvergensi sehingga dapat dihentikan. Untuk mengevaluasi hasil *cluster*, digunakan *Mean Square Error* (MSE) yang mengukur tingkat kesalahan (*error*) dengan menghitung jumlah kuadrat dari jarak vektor input terhadap *winning neuron* dibagi dengan jumlah bobotnya. Rumus yang digunakan untuk menghitung MSE: $MSE=\sum_{t=1}(\frac{d_{j}-{d_{j}}^{t}}{n})^{2}$. Semakin kecil nilai MSE, menunjukkan bahwa tingkat konvergensinya semakin baik.
 
-
-
----
-
-## Self Organizing Maps (SOM)
-
 ---
 
 ## 📊 Sumber Data dan Variabel
 
 Data yang digunakan dalam proyek ini berasal dari beberapa sumber resmi berikut:
 
-- **Survei Status Gizi Balita Indonesia (SSGBI) 2023** – Data indeks stunting dan indikator kesehatan anak balita di seluruh provinsi Indonesia.  
-  Sumber: [https://example.gov.id/ssgbi-2023](https://example.gov.id/ssgbi-2023)
-
 - **Badan Pusat Statistik (BPS) Indonesia** – Data demografi, sosial ekonomi, dan akses layanan kesehatan provinsi.  
   Sumber: [https://bps.go.id/](https://bps.go.id/)
 
-- **Kementerian Kesehatan Republik Indonesia (Kemenkes RI)** – Laporan tahunan dan data program penanganan stunting.  
-  Sumber: [https://www.kemkes.go.id/](https://www.kemkes.go.id/)
+- **Portal Satu Data Indonesia** – Data terkait program penanganan stunting dan informasi sektoral lainnya dari berbagai kementerian/lembaga.
+  Sumber: [https://data.go.id/](https://data.go.id/)
 
 Data tersebut telah diproses dan distandarisasi untuk keperluan analisis menggunakan metode Self Organizing Maps (SOM).
 

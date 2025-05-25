@@ -135,6 +135,9 @@ Variabel-variabel yang digunakan dalam proyek ini untuk membentuk Indeks Khusus 
 
 Berikut adalah visualisasi tambahan yang dihasilkan selama proses pelatihan Self Organizing Maps, memberikan wawasan lebih lanjut tentang bagaimana model belajar dan mengelompokkan data:
 
+![Ikon IKPS](images/Training proses.png)
+
+
 <div align="center">
 <img src="http://127.0.0.1:41831/graphics/5e050450-4282-442d-970e-0df9ed9388db.png" alt="Grafik Kemajuan Pelatihan SOM" width="600">
 <p align="center">Gambar Kemajuan Pelatihan (<i>Training Progress</i>)</p>

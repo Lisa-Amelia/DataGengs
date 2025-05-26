@@ -19,6 +19,12 @@ Proyek ini bertujuan untuk mengelompokkan Provinsi di Indonesia berdasarkan Inde
 
 ---
 ## 👶 Indeks Khusus Penanganan Stunting (IKPS)
+Indeks khusus penanganan stunting (IKPS) merupakan suatu alat khusus untuk menghitung jangkauan intervensi gizi terkait penanganan stunting pada rumah tangga yang menjadi sasaran. IKPS dirancang untuk mengevaluasi berbagai strategi pencegahan stunting di Indonesia, sekaligus untuk memenuhi delapan kesepakatan Disbursement Linked Indicators (DL) antara pemerintah Indonesia dan Bank Dunia.
+
+IKPS sangat bermanfaat bagi Kementerian/Lembaga di tingkat pusat, dan juga dapat dimanfaatkan oleh pemerintah daerah. Hal ini karena, IKPS merupakan indeks yang dapat dipantau secara berkala untuk pemantauan dan evaluasi program pencegahan stunting. IKPS dapat mengkoordinasikan kepentingan Kementerian/Lembaga untuk melaksanakan pencegahan stunting. Di sisi lain, IKPS juga secara tidak langsung dapat mencerminkan variasi bagaimana pemerintah daerah melakukan pelaksanaan program pencegahan stunting.
+
+IKPS di susun melalui beberapa fase, yaitu mulai dari pemetaan indikator penyusun IKPS, normalisasi indikator, penentuan penimbang, penghitungan  IKPS, hingga penyusunan laporan. Penentuan dimensi dan indikator  pada IKPS harus memenuhi prinsip SMART yaitu Specific, Measurable, Achievable, Realistic, dan Timely and Simplicity. Berdasarkan prinsip SMART tersebut, 
+maka terbentuk 6 dimensi dan 12 indikator dari penyusun IKPS. Berikut mengenai dimensi dan indikator penyusun IKPS
 
 ---
 

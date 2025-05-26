@@ -24,7 +24,12 @@ Indeks khusus penanganan stunting (IKPS) merupakan suatu alat khusus untuk mengh
 IKPS sangat bermanfaat bagi Kementerian/Lembaga di tingkat pusat, dan juga dapat dimanfaatkan oleh pemerintah daerah. Hal ini karena, IKPS merupakan indeks yang dapat dipantau secara berkala untuk pemantauan dan evaluasi program pencegahan stunting. IKPS dapat mengkoordinasikan kepentingan Kementerian/Lembaga untuk melaksanakan pencegahan stunting. Di sisi lain, IKPS juga secara tidak langsung dapat mencerminkan variasi bagaimana pemerintah daerah melakukan pelaksanaan program pencegahan stunting.
 
 IKPS di susun melalui beberapa fase, yaitu mulai dari pemetaan indikator penyusun IKPS, normalisasi indikator, penentuan penimbang, penghitungan  IKPS, hingga penyusunan laporan. Penentuan dimensi dan indikator  pada IKPS harus memenuhi prinsip SMART yaitu Specific, Measurable, Achievable, Realistic, dan Timely and Simplicity. Berdasarkan prinsip SMART tersebut, 
-maka terbentuk 6 dimensi dan 12 indikator dari penyusun IKPS. Berikut mengenai dimensi dan indikator penyusun IKPS
+maka terbentuk 6 dimensi dan 12 indikator dari penyusun IKPS. Berikut mengenai dimensi dan indikator penyusun IKPS.
+
+<div align="center">
+<img src="images/dimensi dan indikator IPKS.png" alt="Gambar dimensi dan indikator IKPS" width="500">
+<p align="center">Gambar dimensi dan indikator IKPS</p>
+</div>
 
 ---
 
@@ -117,6 +122,12 @@ Variabel-variabel yang digunakan dalam proyek ini untuk membentuk Indeks Khusus 
 ---
 
 ## 🔄 Alur Proyek
+
+<div align="center">
+<img src="images/flowchart.png" alt="Gambar Alur Kerja SOM" width="750">
+<p align="center">Gambar Alur Kerja SOM</p>
+</div>
+
 
 1. **Pengumpulan Data**  
    Mengumpulkan dan membersihkan data indikator penanganan stunting dari sumber resmi.  

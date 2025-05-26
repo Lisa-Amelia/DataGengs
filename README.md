@@ -14,10 +14,6 @@
 Proyek ini bertujuan untuk mengelompokkan Provinsi di Indonesia berdasarkan Indeks Khusus Penanganan Stunting (IKPS) menggunakan metode Self Organizing Maps (SOM). SOM adalah algoritma unsupervised learning yang digunakan untuk memetakan data ke dalam bentuk visual yang mudah dipahami. Dengan metode ini, wilayah-wilayah dengan karakteristik penanganan stunting yang mirip akan tergabung dalam satu klaster. Proyek ini diharapkan dapat membantu pengambil kebijakan dalam mengidentifikasi daerah prioritas intervensi serta merancang strategi yang lebih tepat sasaran.
 
 ---
-
-## 🧠 Latar Belakang
-
----
 ## 👶 Indeks Khusus Penanganan Stunting (IKPS)
 Indeks khusus penanganan stunting (IKPS) merupakan suatu alat khusus untuk menghitung jangkauan intervensi gizi terkait penanganan stunting pada rumah tangga yang menjadi sasaran. IKPS dirancang untuk mengevaluasi berbagai strategi pencegahan stunting di Indonesia, sekaligus untuk memenuhi delapan kesepakatan Disbursement Linked Indicators (DL) antara pemerintah Indonesia dan Bank Dunia.
 
@@ -207,18 +203,4 @@ Identifikasi klaster-klaster ini akan memungkinkan penentu kebijakan untuk:
 Visualisasi hasil *klastering* juga dapat ditampilkan pada peta Indonesia, di mana setiap klaster provinsi diberi warna yang berbeda untuk memudahkan interpretasi dan identifikasi visual.
 
 
----
-
-## 🛠️ Instalasi
-
-Untuk menjalankan proyek ini secara lokal menggunakan R, ikuti langkah berikut:
-
-### Prasyarat  
-- R versi 4.0+  
-- Paket R: `kohonen`, `openxlsx`, `ggplot2`, `klaster`
-
-### Langkah-langkah  
-1. Clone repository:  
-   ```bash
-   git clone https://github.com/yourusername/repo.git
 ---
